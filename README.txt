@@ -1,5 +1,6 @@
 I. Location
 ------------------------
+https://github.com/Zsolt87/action_monitor/
 
 II. Build process
 ------------------------
@@ -17,7 +18,12 @@ II. Build process
 	a.) cd into action_monitor/
 	b.) mvnw test
 	
-III. Limitations:
+III. Limitations
 ------------------------
 1.) No authentication not authorization
 2.) In memory database loses messages in case of server restart
+3.) H2 and Surfire versions were downgraded because of code issues and new authentication procedure
+
+IV. Testing
+------------------------
+./surfire-report.html
